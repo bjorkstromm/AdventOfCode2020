@@ -1,16 +1,16 @@
 ﻿module ReportRepair
 
 let sumTo2020 entries =
-    let rec test xs x =
-        let l = xs |> List.length
+    let rec test (x, xs) =
         let head = xs |> List.head
 
-        match (head + x), l with
-        | 2020, _ -> Some (x, head)
-        | _, 1 -> None
-        | _, _ -> test (xs |> List.tail) x
+        match (head + x, xs |> List.tail) with
+        | (2020, _) -> Some (x, head)
+        | (_, []) -> None
+        | (_, tail) -> test (x, tail)
 
     entries
-    |> List.map (fun x -> test (List.except [x] entries) x)
+    |> List.map (fun x -> (x, entries |> List.except [x]))
+    |> List.map test
     |> List.choose id
     |> List.head
