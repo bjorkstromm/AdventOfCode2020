@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 1 - Report Repair", "Day 1 - Report Repair\Day 1 - Report Repair.fsproj", "{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 2 - Password Philosophy", "Day 2 - Password Philosophy\Day 2 - Password Philosophy.fsproj", "{398AD04B-F452-4FA0-8DAD-2937DDDC3109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
