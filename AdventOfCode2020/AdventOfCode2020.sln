@@ -4,6 +4,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 1 - Report Repair", "Da
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 2 - Password Philosophy", "Day 2 - Password Philosophy\Day 2 - Password Philosophy.fsproj", "{398AD04B-F452-4FA0-8DAD-2937DDDC3109}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 3 - Toboggan Trajectory", "Day 3 - Toboggan Trajectory\Day 3 - Toboggan Trajectory.fsproj", "{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{398AD04B-F452-4FA0-8DAD-2937DDDC3109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
