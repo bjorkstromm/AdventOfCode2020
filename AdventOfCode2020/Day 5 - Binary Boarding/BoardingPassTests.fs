@@ -24,7 +24,7 @@ type TrajectoryTests(output: ITestOutputHelper) =
         |]
 
     [<Fact>]
-    member __.``Puzzle Input - Part I`` () =
+    member __.``Puzzle Input - Part I and Part II`` () =
         let input = [|
             "FBFFFFBRLL"
             "FFBFFFFRLR"
@@ -845,10 +845,15 @@ type TrajectoryTests(output: ITestOutputHelper) =
             "FBBBFBBLLR"
             |]
 
-        let passes = scan input
+        let passes = scan input |> Array.sortByDescending (fun x -> x.Id)
+        let highest = passes |> Array.head
+        let lowest = passes |> Array.last
 
-        passes
-        |> Array.sortByDescending (fun x -> x.Id)
-        |> Array.head
-        |> sprintf "%A"
-        |> output.WriteLine
+        let allIds = [|lowest.Id..highest.Id|]
+        let myId = allIds |> Array.except (passes |> Array.map (fun p -> p.Id))
+
+        myId |> Array.length |> should equal 1
+
+        output.WriteLine("Lowest: {0}", lowest)
+        output.WriteLine("Highest: {0}", highest)
+        output.WriteLine("My: {0}", myId |> Array.head)
