@@ -10,6 +10,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 4 - Passport Processing
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 5 - Binary Boarding", "Day 5 - Binary Boarding\Day 5 - Binary Boarding.fsproj", "{8014587C-EE82-4236-A0AD-3125FB0BC6A4}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 6 - Custom Customs", "Day 6 - Custom Customs\Day 6 - Custom Customs.fsproj", "{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{8014587C-EE82-4236-A0AD-3125FB0BC6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8014587C-EE82-4236-A0AD-3125FB0BC6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8014587C-EE82-4236-A0AD-3125FB0BC6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
