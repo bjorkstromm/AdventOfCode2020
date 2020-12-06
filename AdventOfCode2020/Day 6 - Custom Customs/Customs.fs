@@ -5,12 +5,13 @@ open System
 let scan (input : string) =
     let scanPerson (p : string) =
         p.ToCharArray()
+        |> Set.ofArray
 
     let scanGroup (g : string) =
         g.Split(Environment.NewLine)
         |> Array.map scanPerson
-        |> Array.concat
-        |> Array.distinct
+        |> Set.unionMany
+        |> Set.toArray
 
     input.Split(Environment.NewLine + Environment.NewLine)
     |> Array.map scanGroup
