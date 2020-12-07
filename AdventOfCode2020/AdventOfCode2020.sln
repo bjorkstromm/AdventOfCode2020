@@ -12,6 +12,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 5 - Binary Boarding", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 6 - Custom Customs", "Day 6 - Custom Customs\Day 6 - Custom Customs.fsproj", "{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 7 - Handy Haversacks", "Day 7 - Handy Haversacks\Day 7 - Handy Haversacks.fsproj", "{EA358B30-6879-473F-8394-E79549D2418D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA358B30-6879-473F-8394-E79549D2418D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA358B30-6879-473F-8394-E79549D2418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA358B30-6879-473F-8394-E79549D2418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA358B30-6879-473F-8394-E79549D2418D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
