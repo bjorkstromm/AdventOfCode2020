@@ -53,14 +53,12 @@ let countBags (ruleExp : string) (target : string) =
 
     let rules = parseRules ruleExp
 
-    let stack = Stack<(int * string)>()
-    stack.Push((1, target))
-    let mutable total = 0
+    let rec count total stack =
+        match stack with
+        | [] -> total
+        | (n, c)::t -> let stack = rules.[c] |> Array.fold (fun s (nc, cc) -> (n*nc, cc)::s) t
+                       count (total + n) stack
 
-    while stack.Count > 0 do
-        let (n, c) = stack.Pop()
-        total <- (total + n)
-        for (n_child, c_child) in rules.[c] do
-            stack.Push((n * n_child, c_child))
+    let total = count 0 [(1, target)]
 
     total - 1
