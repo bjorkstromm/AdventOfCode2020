@@ -14,6 +14,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 6 - Custom Customs", "D
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 7 - Handy Haversacks", "Day 7 - Handy Haversacks\Day 7 - Handy Haversacks.fsproj", "{EA358B30-6879-473F-8394-E79549D2418D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 8 - Handheld Halting", "Day 8 - Handheld Halting\Day 8 - Handheld Halting.fsproj", "{E6AAB02B-2F31-45FC-B4F7-700461683DF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{EA358B30-6879-473F-8394-E79549D2418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA358B30-6879-473F-8394-E79549D2418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA358B30-6879-473F-8394-E79549D2418D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
