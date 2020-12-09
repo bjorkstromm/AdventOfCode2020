@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 1 - Report Repair", "Day 1 - Report Repair\Day 1 - Report Repair.fsproj", "{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 2 - Password Philosophy", "Day 2 - Password Philosophy\Day 2 - Password Philosophy.fsproj", "{398AD04B-F452-4FA0-8DAD-2937DDDC3109}"
@@ -15,6 +16,8 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 7 - Handy Haversacks", "Day 7 - Handy Haversacks\Day 7 - Handy Haversacks.fsproj", "{EA358B30-6879-473F-8394-E79549D2418D}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 8 - Handheld Halting", "Day 8 - Handheld Halting\Day 8 - Handheld Halting.fsproj", "{E6AAB02B-2F31-45FC-B4F7-700461683DF8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 9 - Encoding Error", "Day 9 - Encoding Error\Day 9 - Encoding Error.fsproj", "{2FC74F6E-4500-46C3-B671-08EA414BC059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +57,9 @@ Global
 		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6AAB02B-2F31-45FC-B4F7-700461683DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
