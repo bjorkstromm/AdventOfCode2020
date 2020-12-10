@@ -19,6 +19,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 8 - Handheld Halting", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 9 - Encoding Error", "Day 9 - Encoding Error\Day 9 - Encoding Error.fsproj", "{2FC74F6E-4500-46C3-B671-08EA414BC059}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 10 - Adapter Array", "Day 10 - Adapter Array\Day 10 - Adapter Array.fsproj", "{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,5 +63,9 @@ Global
 		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC74F6E-4500-46C3-B671-08EA414BC059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
