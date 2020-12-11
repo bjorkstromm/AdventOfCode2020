@@ -147,3 +147,21 @@ type AdaptersTests(output: ITestOutputHelper) =
 
         let (x, _, y) = joltage input
         output.WriteLine("{0} * {1} = {2}", x, y, (x*y))
+
+    [<Fact>]
+    member __.``Example Data - Part II`` () =
+        let input = [|
+            16
+            10
+            15
+            5
+            1
+            11
+            7
+            19
+            6
+            12
+            4
+        |]
+
+        combinations input

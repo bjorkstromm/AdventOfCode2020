@@ -18,3 +18,21 @@ let joltage (adapters : int array) =
     |> Array.sort
     |> Array.toList
     |> count (1,1,1)
+
+let combinations (adapters : int array) =
+    let rec count (curr : int) (tail : int list) : int list list =
+        match tail with
+        | [] -> [[curr]]
+        | _ ->
+            tail
+            |> List.mapi (fun i x -> (i,x))
+            |> List.filter (fun (_,x) -> 0 < (x - curr) && (x - curr) < 4 )
+            |> List.map (fun (i, x) -> count x (tail.[i..]))
+            |> List.map (fun x -> x |> List.map (fun y -> curr::y))
+            |> List.concat
+
+
+    adapters
+    |> Array.sort
+    |> Array.toList
+    |> count 0
