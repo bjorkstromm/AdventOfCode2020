@@ -1,27 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 1 - Report Repair", "Day 1 - Report Repair\Day 1 - Report Repair.fsproj", "{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 1 - Report Repair", "Day 1 - Report Repair\Day 1 - Report Repair.fsproj", "{ADA52D4B-CEC1-481A-A1C0-A91B95474EA9}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 2 - Password Philosophy", "Day 2 - Password Philosophy\Day 2 - Password Philosophy.fsproj", "{398AD04B-F452-4FA0-8DAD-2937DDDC3109}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 2 - Password Philosophy", "Day 2 - Password Philosophy\Day 2 - Password Philosophy.fsproj", "{398AD04B-F452-4FA0-8DAD-2937DDDC3109}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 3 - Toboggan Trajectory", "Day 3 - Toboggan Trajectory\Day 3 - Toboggan Trajectory.fsproj", "{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 3 - Toboggan Trajectory", "Day 3 - Toboggan Trajectory\Day 3 - Toboggan Trajectory.fsproj", "{EC6F21A1-ADA6-4E99-8DBB-77832FBA51CB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 4 - Passport Processing", "Day 4 - Passport Processing\Day 4 - Passport Processing.fsproj", "{A4BF4EC4-1997-4015-9E9B-4FE3B0EEA621}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 4 - Passport Processing", "Day 4 - Passport Processing\Day 4 - Passport Processing.fsproj", "{A4BF4EC4-1997-4015-9E9B-4FE3B0EEA621}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 5 - Binary Boarding", "Day 5 - Binary Boarding\Day 5 - Binary Boarding.fsproj", "{8014587C-EE82-4236-A0AD-3125FB0BC6A4}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 5 - Binary Boarding", "Day 5 - Binary Boarding\Day 5 - Binary Boarding.fsproj", "{8014587C-EE82-4236-A0AD-3125FB0BC6A4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 6 - Custom Customs", "Day 6 - Custom Customs\Day 6 - Custom Customs.fsproj", "{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 6 - Custom Customs", "Day 6 - Custom Customs\Day 6 - Custom Customs.fsproj", "{4EAC450B-656C-4BFB-A2FF-AF7C0A7B00FA}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 7 - Handy Haversacks", "Day 7 - Handy Haversacks\Day 7 - Handy Haversacks.fsproj", "{EA358B30-6879-473F-8394-E79549D2418D}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 7 - Handy Haversacks", "Day 7 - Handy Haversacks\Day 7 - Handy Haversacks.fsproj", "{EA358B30-6879-473F-8394-E79549D2418D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 8 - Handheld Halting", "Day 8 - Handheld Halting\Day 8 - Handheld Halting.fsproj", "{E6AAB02B-2F31-45FC-B4F7-700461683DF8}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 8 - Handheld Halting", "Day 8 - Handheld Halting\Day 8 - Handheld Halting.fsproj", "{E6AAB02B-2F31-45FC-B4F7-700461683DF8}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 9 - Encoding Error", "Day 9 - Encoding Error\Day 9 - Encoding Error.fsproj", "{2FC74F6E-4500-46C3-B671-08EA414BC059}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 9 - Encoding Error", "Day 9 - Encoding Error\Day 9 - Encoding Error.fsproj", "{2FC74F6E-4500-46C3-B671-08EA414BC059}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 10 - Adapter Array", "Day 10 - Adapter Array\Day 10 - Adapter Array.fsproj", "{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 10 - Adapter Array", "Day 10 - Adapter Array\Day 10 - Adapter Array.fsproj", "{E019FE39-EE7D-4C21-963C-1FDF9FEFDF46}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 11 - Seating System", "Day 11 - Seating System\Day 11 - Seating System.fsproj", "{3BB691B3-3F43-4DD2-89FC-C6F244BE57AB}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 11 - Seating System", "Day 11 - Seating System\Day 11 - Seating System.fsproj", "{3BB691B3-3F43-4DD2-89FC-C6F244BE57AB}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 12 - Rain Risk", "Day 12 - Rain Risk\Day 12 - Rain Risk.fsproj", "{21B35B59-18CE-4CA3-BC01-02F51823905C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,5 +77,15 @@ Global
 		{3BB691B3-3F43-4DD2-89FC-C6F244BE57AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB691B3-3F43-4DD2-89FC-C6F244BE57AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB691B3-3F43-4DD2-89FC-C6F244BE57AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B35B59-18CE-4CA3-BC01-02F51823905C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B35B59-18CE-4CA3-BC01-02F51823905C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B35B59-18CE-4CA3-BC01-02F51823905C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B35B59-18CE-4CA3-BC01-02F51823905C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15B4D156-1CAD-465A-9FA0-6E8302C13AC5}
 	EndGlobalSection
 EndGlobal
