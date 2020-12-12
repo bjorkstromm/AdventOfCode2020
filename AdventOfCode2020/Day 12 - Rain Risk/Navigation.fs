@@ -45,3 +45,46 @@ let navigate (exp : string) =
         |> Array.fold move { X = 0; Y = 0; Direction = East }
 
     (abs pos.X) + (abs pos.Y)
+
+type Position = {
+    X: int
+    Y: int
+}
+
+type Ship = {
+    Waypoint: Position
+    Position: Position
+}
+
+let navigate2 (exp : string) =
+    let rec move (ship : Ship) (instruction : (char * int)) =
+        let rotate wp deg =
+            match (deg + 360) % 360 with
+            | 0 -> wp
+            | 90 -> { Y = wp.X; X = -wp.Y }
+            | 180 -> { Y = -wp.Y; X = -wp.X }
+            | 270 -> { Y = -wp.X; X = wp.Y }
+            | _ -> failwithf "Invalid degrees %i" deg
+
+        match instruction with
+        | ('N', y) -> { ship with Waypoint = { ship.Waypoint with Y = ship.Waypoint.Y - y } }
+        | ('S', y) -> { ship with Waypoint = { ship.Waypoint with Y = ship.Waypoint.Y + y } }
+        | ('E', x) -> { ship with Waypoint = { ship.Waypoint with X = ship.Waypoint.X + x } }
+        | ('W', x) -> { ship with Waypoint = { ship.Waypoint with X = ship.Waypoint.X - x } }
+        | ('L', deg) -> { ship with Waypoint = rotate ship.Waypoint -deg }
+        | ('R', deg) -> { ship with Waypoint = rotate ship.Waypoint deg }
+        | ('F', n) -> { ship with Position = { X = ship.Position.X + (n * ship.Waypoint.X); Y = ship.Position.Y + (n * ship.Waypoint.Y) }}
+        | (c, _) -> failwithf "Invalid action %c" c
+
+    let instructions = 
+        exp.Split(System.Environment.NewLine)
+        |> Array.map (fun str -> str.[0], str.[1..] |> int)
+
+    let ship =
+        instructions
+        |> Array.fold move { 
+            Position = { X = 0; Y = 0 }
+            Waypoint = { X = 10; Y = -1 }
+        }
+
+    (abs ship.Position.X) + (abs ship.Position.Y)
