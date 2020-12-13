@@ -57,7 +57,7 @@ type Ship = {
 }
 
 let navigate2 (exp : string) =
-    let rec move (ship : Ship) (instruction : (char * int)) =
+    let move (ship : Ship) (instruction : (char * int)) =
         let rotate wp deg =
             match (deg + 360) % 360 with
             | 0 -> wp
