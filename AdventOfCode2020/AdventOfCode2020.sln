@@ -29,6 +29,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Day 12 - Rain Risk", "Day 1
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 13 - Shuttle Search", "Day 13 - Shuttle Search\Day 13 - Shuttle Search.fsproj", "{46324B20-565A-4AC9-9E47-6CA1B7E728D0}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 14 - Docking Data", "Day 14 - Docking Data\Day 14 - Docking Data.fsproj", "{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{46324B20-565A-4AC9-9E47-6CA1B7E728D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46324B20-565A-4AC9-9E47-6CA1B7E728D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46324B20-565A-4AC9-9E47-6CA1B7E728D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
