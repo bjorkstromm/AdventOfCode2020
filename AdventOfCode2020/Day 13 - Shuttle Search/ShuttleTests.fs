@@ -29,3 +29,11 @@ type ShuttleTests(output: ITestOutputHelper) =
 
         let (id, minute) = search input
         output.WriteLine("{0} x {1} = {2}", minute, id, minute * id)
+
+
+    [<Fact>]
+    member __.``Example Data`` () =
+        let input = "7,13,x,x,59,x,31,19"
+
+        let earliest = search2 input
+        earliest |> should equal 1068788UL

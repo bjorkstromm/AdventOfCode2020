@@ -18,3 +18,14 @@ let search (exp : string array) =
                     |> Array.sortBy (fun (_, time) -> time)
     
     ordered |> Array.head
+
+let search2 (exp : string) =
+    let busIds =
+        exp.Split(",")
+        |> Array.mapi (fun i str ->
+            match UInt64.TryParse str with
+            | true, num -> Some (i, num)
+            | _ -> None)
+        |> Array.choose id
+    
+    0
