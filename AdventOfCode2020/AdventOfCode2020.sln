@@ -31,6 +31,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 13 - Shuttle Search", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 14 - Docking Data", "Day 14 - Docking Data\Day 14 - Docking Data.fsproj", "{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 15 - Rambunctious Recitation", "Day 15 - Rambunctious Recitation\Day 15 - Rambunctious Recitation.fsproj", "{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AA15164-24D9-4E1A-9248-FFD8BDAD1E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
