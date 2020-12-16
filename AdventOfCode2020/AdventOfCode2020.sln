@@ -33,6 +33,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 14 - Docking Data", "Da
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 15 - Rambunctious Recitation", "Day 15 - Rambunctious Recitation\Day 15 - Rambunctious Recitation.fsproj", "{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 16 - Ticket Translation", "Day 16 - Ticket Translation\Day 16 - Ticket Translation.fsproj", "{9C2BCA60-496B-4445-9142-E20558B7717E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8EACFC9-2095-419B-9DD8-4C2AC1AAF243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2BCA60-496B-4445-9142-E20558B7717E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2BCA60-496B-4445-9142-E20558B7717E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2BCA60-496B-4445-9142-E20558B7717E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2BCA60-496B-4445-9142-E20558B7717E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
