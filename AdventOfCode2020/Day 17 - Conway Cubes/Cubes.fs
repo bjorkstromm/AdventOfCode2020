@@ -1,6 +1,7 @@
 ﻿module Cubes
 open System.Collections.Generic
 open System.Collections.Concurrent
+open FSharp.Collections.ParallelSeq
 
 type State =
     | Active
@@ -29,9 +30,8 @@ let scan (exp : string []) (cycles : int) =
     let rec loop (map : IDictionary<_,_>) (cycle : int) =
         let dict = ConcurrentDictionary<(int*int*int),State>()
         map.Keys
-        |> Seq.toArray
-        |> Array.collect nearby
-        |> Array.Parallel.iter (fun current ->
+        |> PSeq.collect nearby
+        |> PSeq.iter (fun current ->
             let activeNearby =
                 current
                 |> nearby
@@ -94,9 +94,8 @@ let scan2 (exp : string []) (cycles : int) =
     let rec loop (map : IDictionary<_,_>) (cycle : int) =
         let dict = ConcurrentDictionary<(int*int*int*int),State>()
         map.Keys
-        |> Seq.toArray
-        |> Array.collect nearby
-        |> Array.Parallel.iter (fun current ->
+        |> PSeq.collect nearby
+        |> PSeq.iter (fun current ->
             let activeNearby =
                 current
                 |> nearby
