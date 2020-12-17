@@ -67,16 +67,19 @@ let scan (exp : string []) (cycles : int) =
     |> Seq.length
 
 let scan2 (exp : string []) (cycles : int) =
+    let nearbyCache = ConcurrentDictionary<(int*int*int*int),(int*int*int*int)[]>()
+
     let nearby (x,y,z,w) =
-        [|x-1..x+1|]
-        |> Array.collect (fun x ->
-            [|y-1..y+1|]
-            |> Array.collect (fun y ->
-                [|z-1..z+1|]
-                |> Array.collect (fun z ->
-                    [|w-1..w+1|]
-                    |> Array.map (fun w -> (x,y,z,w)))))
-        |> Array.except [|(x,y,z,w)|]
+        nearbyCache.GetOrAdd((x,y,z,w), fun (x,y,z,w) ->
+            [|x-1..x+1|]
+            |> Array.collect (fun x ->
+                [|y-1..y+1|]
+                |> Array.collect (fun y ->
+                    [|z-1..z+1|]
+                    |> Array.collect (fun z ->
+                        [|w-1..w+1|]
+                        |> Array.map (fun w -> (x,y,z,w)))))
+            |> Array.except [|(x,y,z,w)|])
 
     let initial = 
         exp
